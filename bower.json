@@ -1,6 +1,6 @@
 {
 	"name": "Zeotrope",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A requestAnimationFrame polyfil and jQuery Animation shim.",
 	"keywords": [
 		"javascript",

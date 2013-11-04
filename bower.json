@@ -1,0 +1,28 @@
+{
+	"name": "Zeotrope",
+	"version": "0.1.0",
+	"description": "A requestAnimationFrame polyfil and jQuery Animation shim.",
+	"keywords": [
+		"javascript",
+		"jquery",
+		"animation",
+		"raf"
+		"utility",
+		"benplum"
+	],
+	"authors": [
+		"Ben Plum"
+	],
+	"license": "MIT",
+	"homepage": "http://www.benplum.com/projects/zeotrope/",
+	"main": [
+		"jquery.bp.zeotrope.min.js"
+	],
+	"ignore": [
+		"*.json"
+	],
+	"dependencies": {
+		"jquery": ">= 1.7.0"
+	},
+	"devDependencies": {}
+}

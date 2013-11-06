@@ -1,7 +1,7 @@
 /*
  * Zeotrope Plugin
  * @author Ben Plum
- * @version 0.1.2
+ * @version 0.1.3
  *
  * Copyright © 2013 Ben Plum <mr@benplum.com>
  * Released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
@@ -17,10 +17,12 @@
 	
 	for (var i = 0; i < vendors.length && !window.requestAnimationFrame; i++) {
 		window.requestAnimationFrame = window[vendors[i]+'RequestAnimationFrame'];
-		window.cancelAnimationFrame = window[vendors[i]+'CancelAnimationFrame'] || window[vendors[x]+'CancelRequestAnimationFrame'];
+		window.cancelAnimationFrame = window[vendors[i]+'CancelAnimationFrame'] || window[vendors[i]+'CancelRequestAnimationFrame'];
 	}
 	
-	if (!window.requestAnimationFrame)
+	window.navtiveRAF = (typeof window.requestAnimationFrame !== "undefined");
+	
+	if (!window.navtiveRAF) {
 		window.requestAnimationFrame = function(callback, element) {
 			var currTime = new Date().getTime();
 			var timeToCall = Math.max(0, 16 - (currTime - lastTime));
@@ -28,17 +30,15 @@
 			lastTime = currTime + timeToCall;
 			return id;
 		};
-	
-	if (!window.cancelAnimationFrame) {
+		
 		window.cancelAnimationFrame = function(id) {
 			clearTimeout(id);
 		};
 	}
-}());
+})(window);
 
 // jQuery Animation Shim
-if (jQuery) (function($) {
-	
+if (jQuery && !window.navtiveRAF) (function($) {
 	var animating = false;
 	
 	function raf() {

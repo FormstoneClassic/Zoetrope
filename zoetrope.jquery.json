@@ -1,6 +1,6 @@
 {
-	"name": "zeotrpe",
-	"title": "Zeotrpe",
+	"name": "zoetrope",
+	"title": "Zoetrope",
 	"description": "A requestAnimationFrame polyfil and jQuery Animation shim.",
 	"keywords": [
 		"animation",
@@ -8,7 +8,7 @@
 		"utility",
 		"benplum"
 	],
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"author": {
 		"name": "Ben Plum",
 		"url": "http://www.benplum.com"
@@ -19,10 +19,10 @@
 			"url": "http://www.opensource.org/licenses/mit-license.php"
 		}
 	],
-	"docs": "http://www.benplum.com/projects/zeotrope/",
-	"demo": "http://www.benplum.com/projects/zeotrope/",
-	"download": "https://github.com/benplum/Zeotrope",
-	"bugs": "https://github.com/benplum/Zeotrope/issues",
+	"docs": "http://www.benplum.com/projects/zoetrope/",
+	"demo": "http://www.benplum.com/projects/zoetrope/",
+	"download": "https://github.com/benplum/Zoetrope",
+	"bugs": "https://github.com/benplum/Zoetrope/issues",
 	"dependencies": {
 		"jquery": ">=1.7"
 	}

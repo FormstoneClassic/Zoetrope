@@ -16,7 +16,7 @@
   "dependencies": {
     "jquery": ">=1.7"
   },
-  "description": "A requestAnimationFrame polyfil and jQuery Animation shim. Part of the Formstone Library.",
+  "description": "A requestAnimationFrame polyfill and jQuery Animation shim. Part of the Formstone Library.",
   "keywords": [
     "animation",
     "raf",

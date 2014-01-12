@@ -1,7 +1,7 @@
 {
   "name": "Zoetrope",
   "version": "3.0.0",
-  "description": "A requestAnimationFrame polyfil and jQuery Animation shim. Part of the Formstone Library.",
+  "description": "A requestAnimationFrame polyfill and jQuery Animation shim. Part of the Formstone Library.",
   "author": {
     "name": "Ben Plum",
     "email": "mr@benplum.com",

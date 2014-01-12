@@ -1,6 +1,6 @@
 /* 
- * Zoetrope v3.0.0 - 2014-01-09 
- * A requestAnimationFrame polyfil and jQuery Animation shim. Part of the Formstone Library. 
+ * Zoetrope v3.0.0 - 2014-01-12 
+ * A requestAnimationFrame polyfill and jQuery Animation shim. Part of the Formstone Library. 
  * http://formstone.it/zoetrope/ 
  * 
  * Copyright 2014 Ben Plum; MIT Licensed 
@@ -9,7 +9,7 @@
 /** 
  * @plugin 
  * @name Zoetrope 
- * @description A requestAnimationFrame polyfil and jQuery Animation shim. Part of the Formstone Library. 
+ * @description A requestAnimationFrame polyfill and jQuery Animation shim. Part of the Formstone Library. 
  * @version 3.0.0 
  */ 
 

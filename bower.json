@@ -10,8 +10,9 @@
   "license": "MIT",
   "homepage": "http://formstone.it/zoetrope/",
   "ignore": [
-    "*.json",
-    "Gruntfile.js"
+    "*.jquery.json",
+    "Gruntfile.js",
+    "src/"
   ],
   "main": [
     "jquery.fs.zoetrope.js"

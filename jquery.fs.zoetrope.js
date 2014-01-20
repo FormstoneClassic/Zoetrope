@@ -1,5 +1,5 @@
 /* 
- * Zoetrope v3.0.1 - 2014-01-13 
+ * Zoetrope v3.0.2 - 2014-01-20 
  * A requestAnimationFrame polyfill and jQuery Animation shim. Part of the Formstone Library. 
  * http://formstone.it/zoetrope/ 
  * 

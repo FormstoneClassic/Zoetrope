@@ -1,6 +1,6 @@
 {
   "name": "zoetrope",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "title": "Zoetrope",
   "author": {
     "name": "Ben Plum",
@@ -27,7 +27,6 @@
     "benplum"
   ],
   "docs": "http://formstone.it/zoetrope/",
-  "demo": "http://formstone.it/zoetrope/",
   "download": "https://github.com/benplum/Zoetrope",
   "bugs": "https://github.com/benplum/Zoetrope/issues",
   "homepage": "http://formstone.it/zoetrope/"

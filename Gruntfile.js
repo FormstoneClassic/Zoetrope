@@ -76,7 +76,7 @@ module.exports = function(grunt) {
 					keywords: '<%= pkg.keywords %>',
 					homepage: '<%= pkg.homepage %>',
 					docs: 	  '<%= pkg.homepage %>',
-					demo: 	  '<%= pkg.homepage %>',
+					/* demo: 	  '<%= pkg.homepage %>', */
 					download: '<%= pkg.repository.url %>',
 					bugs: 	  '<%= pkg.repository.url %>/issues',
 					dependencies: {
@@ -109,7 +109,7 @@ module.exports = function(grunt) {
 			markdown = '<a href="http://gruntjs.com" target="_blank"><img src="https://cdn.gruntjs.com/builtwith.png" alt="Built with Grunt"></a> \n' +
 					   '# ' + pkg.name + ' \n\n' +
 					   pkg.description + ' \n\n' +
-					   '- [Demo](' + pkg.demo + ') \n' +
+					   /* '- [Demo](' + pkg.demo + ') \n' + */
 					   '- [Documentation](' + pkg.homepage + ') \n\n' +
 					   '#### Bower Support \n' +
 					   '`bower install ' + pkg.name + '`';

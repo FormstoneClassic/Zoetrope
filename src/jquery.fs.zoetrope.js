@@ -3,30 +3,30 @@
  */
 ;(function(window) {
 	"use strict";
-	
+
 	var time = 0,
 		vendors = ['webkit', 'moz'];
-	
+
 	for (var i = 0; i < vendors.length && !window.requestAnimationFrame; i++) {
 		window.requestAnimationFrame = window[vendors[i] + 'RequestAnimationFrame'];
 		window.cancelAnimationFrame = window[vendors[i] + 'CancelAnimationFrame'] || window[vendors[i] + 'CancelRequestAnimationFrame'];
 	}
-	
-	window.navtiveRAF = (typeof window.requestAnimationFrame !== "undefined");
-	
-	if (!window.navtiveRAF) {
+
+	window.nativeRAF = (typeof window.requestAnimationFrame !== "undefined");
+
+	if (!window.nativeRAF) {
 		window.requestAnimationFrame = function(callback, element) {
 			var now = new Date().getTime(),
 				diff = Math.max(0, 16 - (now - time)),
-				id = window.setTimeout(function() { 
-					callback(now + diff); 
+				id = window.setTimeout(function() {
+					callback(now + diff);
 				}, diff);
-			
+
 			time = now + diff;
-			
+
 			return id;
 		};
-		
+
 		window.cancelAnimationFrame = function(id) {
 			clearTimeout(id);
 		};
@@ -38,24 +38,24 @@
  */
 ;(function($, window) {
 	"use strict";
-	
+
 	var animating = false;
-	
+
 	function raf() {
 		if (animating) {
 			window.requestAnimationFrame(raf);
 			jQuery.fx.tick();
 		}
 	}
-	
-	if (!window.navtiveRAF) {
+
+	if (!window.nativeRAF) {
 		$.fx.timer = function( timer ) {
 			if (timer() && $.timers.push(timer) && !animating) {
 				animating = true;
 				raf();
 			}
 		};
-		
+
 		$.fx.stop = function() {
 			animating = false;
 		};

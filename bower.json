@@ -8,7 +8,7 @@
     "url": "http://www.benplum.com"
   },
   "license": "MIT",
-  "homepage": "http://formstone.it/zoetrope/",
+  "homepage": "http://classic.formstone.it/zoetrope/",
   "ignore": [
     "*.jquery.json",
     "Gruntfile.js",

@@ -10,14 +10,13 @@
 	"utility",
 	"javascript",
 	"jquery",
-	"formstone",
-	"benplum"
+	"formstone"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/benplum/Zoetrope"
+    "url": "https://github.com/FormstoneClassic/Zoetrope"
   },
-  "homepage": "http://formstone.it/zoetrope/",
+  "homepage": "http://classic.formstone.it/zoetrope/",
   "license": "MIT",
   "author": {
     "name": "Ben Plum",

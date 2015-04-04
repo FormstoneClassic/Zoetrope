@@ -23,11 +23,10 @@
     "utility",
     "javascript",
     "jquery",
-    "formstone",
-    "benplum"
+    "formstone"
   ],
-  "docs": "http://formstone.it/zoetrope/",
-  "download": "https://github.com/benplum/Zoetrope",
-  "bugs": "https://github.com/benplum/Zoetrope/issues",
-  "homepage": "http://formstone.it/zoetrope/"
+  "docs": "http://classic.formstone.it/zoetrope/",
+  "download": "https://github.com/FormstoneClassic/Zoetrope",
+  "bugs": "https://github.com/FormstoneClassic/Zoetrope/issues",
+  "homepage": "http://classic.formstone.it/zoetrope/"
 }
